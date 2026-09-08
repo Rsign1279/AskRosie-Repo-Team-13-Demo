@@ -10,7 +10,8 @@
     "preview": "node server.js",
     "start": "node server.js",
     "verify:live": "node scripts/verify_live_pipeline.mjs",
-    "test:examples": "node scripts/test_example_artworks.mjs"
+    "test:examples": "node scripts/test_example_artworks.mjs",
+    "verify:examples:deployed": "node scripts/verify_deployed_examples.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",
